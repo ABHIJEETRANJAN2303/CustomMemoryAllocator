@@ -1,0 +1,6 @@
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/allocator.dir
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/test_basic.dir
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/test_fragmentation.dir
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/test_main.dir
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/edit_cache.dir
+/Users/abhijeetranjan/Downloads/CODING/PROJECT/CustomMemoryAllocator/build/CMakeFiles/rebuild_cache.dir
