@@ -16,7 +16,9 @@ void FreeList::insert(BlockMetadata *block)
 void FreeList::remove(BlockMetadata *block)
 {
     if (block->prevFree)
+    {
         block->prevFree->nextFree = block->nextFree;
+    }
     else
         head = block->nextFree;
 

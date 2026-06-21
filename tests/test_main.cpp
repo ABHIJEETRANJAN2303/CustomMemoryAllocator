@@ -55,6 +55,6 @@ int main()
         allocator.printFreeList();
     }
 
-    std::cout << "\n===== STRESS TEST COMPLETE =====\n";
+    std::cout << "\n===== STRESS TEST COMPLETED =====\n";
     return 0;
 }

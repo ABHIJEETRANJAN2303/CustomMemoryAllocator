@@ -89,25 +89,50 @@ Plaintext
     ├── test_basic.cpp          # Simple alloc/free checks
     ├── test_fragmentation.cpp  # Tests splitting and merging logic
     └── test_main.cpp           # Entry point for testing framework
-⚙️ Build & Run
-Ensure you have a C++17 compliant compiler (GCC/Clang/MSVC) and CMake installed.
+## Build and Run
 
-1. Build the project
-Bash
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd CustomMemoryAllocator
+```
+
+### 2. Build the Project
+
+bash
 mkdir build
 cd build
 cmake ..
-make
-2. Run the tests
-Bash
-# Run basic functionality tests
+cmake --build .
+
+
+### 3. Run the Tests
+
+#### Basic Allocator Test
+
+```bash
 ./test_basic
+```
 
-# Run fragmentation and coalescing tests
+Validates allocation, deallocation, splitting, and coalescing.
+
+#### Fragmentation Test
+
+```bash
 ./test_fragmentation
+```
 
-# Run the main test suite
+Creates external fragmentation and verifies memory recovery through coalescing.
+
+#### Stress Test
+
+```bash
 ./test_main
+```
+
+Performs randomized allocation/deallocation operations to validate allocator correctness and heap recovery under heavy usage.
+
 🧠 Learning Outcomes
 This project demonstrates core systems programming concepts:
 
@@ -120,3 +145,7 @@ Data Alignment & Padding: Handling memory alignment requirements.
 Memory Fragmentation: Visualizing external vs. internal fragmentation.
 
 Safe Resource Management: Implementing robust splitting and merging logic to prevent leaks and corruption.
+
+
+Author
+Abhijeet Ranjan

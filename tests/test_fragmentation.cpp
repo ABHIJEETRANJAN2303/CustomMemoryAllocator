@@ -6,7 +6,7 @@ int main()
 {
     std::cout << "===== FRAGMENTATION TEST =====\n";
 
-    // Create allocator with 2 KB heap
+    // Create allocator With 2 KB heap
     MemoryAllocator allocator(2048);
 
     allocator.printHeapLayout();

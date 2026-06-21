@@ -39,6 +39,6 @@ int main()
     allocator.printHeapLayout();
     allocator.printFreeList();
 
-    std::cout << "===== BASIC TEST COMPLETE =====\n";
+    std::cout << "===== BASIC TEST COMPLETED =====\n";
     return 0;
 }
